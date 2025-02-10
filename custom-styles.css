@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+    background-color: #111; /* Dark background */
+    font-family: 'League Spartan', sans-serif; /* Tournament branding font */
+    color: white; /* White text */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #11b2d1; /* Tournament blue */
+}
+
+/* Buttons */
+.btn, button {
+    background-color: #11b2d1; /* Match tournament branding */
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Links */
+a {
+    color: #11b2d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0e8aa8;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #11b2d1;
+}
+
+th {
+    background-color: #11b2d1;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+}
